@@ -1,0 +1,23 @@
+body{
+ /* background-color: black; */
+ background-image: linear-gradient(rgb(245, 45, 45),orange,yellow,rgb(238, 238, 116),white);
+ width : 100vw;
+ height : 100vw;
+ overflow: hidden;
+ /* background-image: url('http/s://media.tenor.com/fSsxftCb8w0AAAAi/pikachu-running.gif'); */
+}
+
+canvas{
+    /* border: 3px solid white; */
+    top:0;
+    left:0;
+    width : 100%;
+    height : 100%; 
+    position: absolute;
+}
+
+#collisioncanvas{
+    opacity: 0;
+    /* background-color: red; */
+}
+
